@@ -1,0 +1,7 @@
+=== SCENARIO 3: CONCURRENT WRITES CONFLICT RESOLUTION ===
+
+Replica Node [:8081] Converged State: Value=Value_From_Replica_2, Version=1, UpdatedBy=replica2
+
+Replica Node [:8082] Converged State: Value=Value_From_Replica_2, Version=1, UpdatedBy=replica2
+
+Replica Node [:8083] Converged State: Value=Value_From_Replica_2, Version=1, UpdatedBy=replica2

@@ -1,0 +1,13 @@
+=== SCENARIO 4: METRICS MATRIX UNDER ARTIFICIAL LATENCIES ===
+
+Model: eventual | Delay Setting:    0ms | PUT Latency:   499.555µs | Convergence Time: 46.927322ms | Stale Reads Checked:  1
+
+Model: eventual | Delay Setting:  500ms | PUT Latency:   523.418µs | Convergence Time: 523.357909ms | Stale Reads Checked: 22
+
+Model: eventual | Delay Setting: 2000ms | PUT Latency:  1.205574ms | Convergence Time: 2.011991104s | Stale Reads Checked: 92
+
+Model: strong   | Delay Setting:    0ms | PUT Latency:   1.30779ms | Convergence Time:   2.84967ms | Stale Reads Checked:  0
+
+Model: strong   | Delay Setting:  500ms | PUT Latency: 502.940968ms | Convergence Time: 504.292185ms | Stale Reads Checked:  0
+
+Model: strong   | Delay Setting: 2000ms | PUT Latency: 2.003958199s | Convergence Time: 2.005079489s | Stale Reads Checked:  0

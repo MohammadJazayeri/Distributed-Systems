@@ -1,0 +1,7 @@
+=== SCENARIO 2: REPLICA FAILURE EXPERIMENTS ===
+
+[Tip] For manual checking: kill Replica 3 (port 8083) process and rerun this script.
+
+Eventual Consistency: Latency=591.782µs, Local Ack Updated Replicas=1
+
+Strong Consistency: Response Code=200, Msg='Write successful', Latency=1.498108ms, Replicas Updated=2

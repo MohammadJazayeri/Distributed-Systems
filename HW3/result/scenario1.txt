@@ -1,0 +1,13 @@
+=== SCENARIO 1: TEMPORARY INCONSISTENCY LOGS ===
+
+PUT Latency: 7.463388ms
+
+Replicas Updated Immediately (Ack): 1
+
+Immediate GET Latency from Replica 2: 2.350998ms
+
+Immediate GET status: Stale Read Detected (Data not present yet)
+
+Post-convergence GET status: Value is now '100' (Successfully Converged)
+
+Total Stale Reads counted: 1
